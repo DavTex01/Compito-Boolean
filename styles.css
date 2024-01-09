@@ -1,0 +1,73 @@
+body {
+  width: 1200px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  background-image: url('background.jpg');
+  background-size: cover;
+  color: white;
+} 
+
+#conteiner { 
+  background-color:rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra orizzontalmente */
+  align-items: center; /* Centra verticalmente */
+  margin-top: 5%;
+  height: 800px;
+}
+
+main {
+margin-left: -400px;
+}
+
+.logo {
+  width: 280px; 
+  margin-left: 110PX;
+}
+
+.logo-text { 
+  color: rgba(0, 255, 0, 0.836);
+  padding: 20px;
+  margin-bottom: 0%;
+}
+
+.green-light-banner {
+  background-color: #0af50ad8;
+  margin-top: -15px;
+  width: 1000px;
+  height: 40px;
+  display: flex;
+  justify-content: center; /* Centra orizzontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+.grande {
+  font-size: 22px; /* Imposta la dimensione del testo "Monopattino" */
+  margin-bottom: 0%;
+  font-weight: bold;
+}
+
+.orange-banner,
+.green-banner,
+.red-banner {
+  height: 30px;
+  border-radius: 5px;
+}
+
+.orange-banner {
+  background-color: rgba(245, 177, 52, 0.993);
+  width: 300px;
+}
+
+.green-banner {
+  background-color: #13df13d0;
+  width: 600px;
+}
+
+.red-banner {
+  background-color: rgba(252, 61, 61, 0.603);
+  width: 150px;
+} 
+
